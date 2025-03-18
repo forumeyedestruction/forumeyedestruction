@@ -55,7 +55,7 @@ async function sendPageLink(userChatId) {
     const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
     const messageData = {
         chat_id: userChatId,
-        text: "شكراً لمشاركة رقمك. يمكنك استخدام الصفحة من هنا: https://yourwebsite.com"
+        text: "https://forumeyedestruction.github.io/forumeyedestruction/"
     };
 
     await fetch(url, {
