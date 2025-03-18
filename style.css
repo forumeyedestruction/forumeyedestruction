@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom,#FF0000 ,#006286 );
+  /* تدرج ألوان */
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 400px;
+  padding: 20px;
+  background: #000000;
+  border-radius: 15px;
+}
+
+button {
+  background-color: #FF0000;
+  color: black;
+  padding: 10px 20px;
+  font-size: 23px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+video {
+  width: 100%;
+  border-radius: 10px;
+  display: none;
+}
+
+canvas {
+  display: none;
+}
