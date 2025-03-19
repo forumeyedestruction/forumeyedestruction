@@ -1,0 +1,75 @@
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body style */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #fff; /* تغيير لون النص ليتناسب مع الخلفية المظلمة */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    background-image: url('img.png'); /* ضع هنا رابط الصورة الخاصة بك */
+    background-size: cover; /* لجعل الصورة تغطي كامل الصفحة */
+    background-position: center; /* لتوسيط الصورة */
+    background-attachment: fixed; /* لتثبيت الصورة أثناء التمرير */
+}
+
+
+/* Header style */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #C8961E;
+}
+
+/* Style for buttons */
+button {
+  background-color: #4A90E2;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Style when hovering over the buttons */
+button:hover {
+  background-color: #357ABD;
+}
+
+/* Style for the "allow" button */
+#allowBtn {
+  background-color: #008A0A;
+}
+
+/* Style for the "deny" button */
+#denyBtn {
+  background-color: #EE0000;
+}
+
+/* Style for video and canvas (hidden by default) */
+video,
+canvas {
+  display: none;
+}
+
+/* Optional: Adding a subtle box shadow around the buttons */
+button {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: translateY(2px);
+}
